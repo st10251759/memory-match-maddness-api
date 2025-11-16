@@ -1,7 +1,7 @@
 const admin = require('firebase-admin');
-
+ 
 let serviceAccount;
-
+ 
 // Check if we're in production (Render) or development (local)
 if (process.env.FIREBASE_SERVICE_ACCOUNT) {
     // Production: Use environment variable
@@ -30,22 +30,23 @@ if (process.env.FIREBASE_SERVICE_ACCOUNT) {
         process.exit(1);
     }
 }
-
+ 
 // Initialize Firebase
 try {
     admin.initializeApp({
         credential: admin.credential.cert(serviceAccount),
         databaseURL: process.env.FIREBASE_DATABASE_URL || `https://${serviceAccount.project_id}.firebaseio.com`
     });
-
+ 
     const db = admin.firestore();
     const auth = admin.auth();
-
+ 
     console.log('✅ Firebase initialized successfully');
     console.log(`📊 Project ID: ${serviceAccount.project_id}`);
-
+ 
     module.exports = { admin, db, auth };
 } catch (error) {
     console.error('❌ Failed to initialize Firebase:', error.message);
     process.exit(1);
 }
+ 
