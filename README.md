@@ -524,7 +524,7 @@ Retrieve complete user profile.
 ```
 
 **Screenshot:**
-![Get User Profile Endpoint](images/screenshots/api_user_profile.png)
+![Get User Profile Endpoint](images/api_user_profile.png)
 
 ---
 
@@ -580,7 +580,7 @@ Retrieve user's level progress.
 ```
 
 **Screenshot:**
-![Get Level Progress Endpoint](images/screenshots/api_level_progress.png)
+![Get Level Progress Endpoint](images/api_level_progress.png)
 
 ---
 
