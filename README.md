@@ -16,7 +16,7 @@ A vibrant cognitive training game that reimagines the classic memory card match 
 
 ---
 ##  App Demo
-[![Watch Demo](https://img.shields.io/badge/Watch_Demo-YouTube-red?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/7-EZwXnZNXY)
+[![Watch Demo](https://img.shields.io/badge/Watch_Demo-YouTube-red?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=41mRM54j3gs)
 ---
 ## Table of Contents
 
